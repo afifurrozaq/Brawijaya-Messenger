@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/home/afifur/AndroidStudioProjects/BrawijayaMessenger/app/build/intermediates/res/merged/debug/layout-v21/notification_action_tombstone.xml",
+        "source": "/home/afifur/.android/build-cache/635695c71a055568279d13f7cd3f9dd15686e969/output/res/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/home/afifur/AndroidStudioProjects/BrawijayaMessenger/app/build/intermediates/res/merged/debug/layout-v21/notification_template_icon_group.xml",
+        "source": "/home/afifur/.android/build-cache/635695c71a055568279d13f7cd3f9dd15686e969/output/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/home/afifur/AndroidStudioProjects/BrawijayaMessenger/app/build/intermediates/res/merged/debug/layout-v21/notification_template_custom_big.xml",
+        "source": "/home/afifur/.android/build-cache/635695c71a055568279d13f7cd3f9dd15686e969/output/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/home/afifur/AndroidStudioProjects/BrawijayaMessenger/app/build/intermediates/res/merged/debug/layout-v21/notification_action.xml",
+        "source": "/home/afifur/.android/build-cache/635695c71a055568279d13f7cd3f9dd15686e969/output/res/layout-v21/notification_action.xml"
+    }
+]

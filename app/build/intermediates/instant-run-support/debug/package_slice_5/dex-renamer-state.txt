@@ -1,0 +1,4 @@
+#Fri May 26 08:58:22 WIB 2017
+base.0=/home/afifur/AndroidStudioProjects/BrawijayaMessenger/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_5
+renamed.0=classes.dex
+file.0=/home/afifur/AndroidStudioProjects/BrawijayaMessenger/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_5/classes.dex

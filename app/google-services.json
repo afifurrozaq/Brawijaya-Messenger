@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "548569215519",
+    "firebase_url": "https://brawijayamessenger-fae36.firebaseio.com",
+    "project_id": "brawijayamessenger-fae36",
+    "storage_bucket": "brawijayamessenger-fae36.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:548569215519:android:55186b1888565779",
+        "android_client_info": {
+          "package_name": "com.yokoding.afifur.brawijayamessenger"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "548569215519-psco4l5g4gvb8vc6dvn7iobmpsh02drc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7nXdlKA5-EO2gyWIBOvEQtSwXdKshA78"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

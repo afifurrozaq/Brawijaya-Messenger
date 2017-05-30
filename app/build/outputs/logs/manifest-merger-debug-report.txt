@@ -1,0 +1,307 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/afifur/AndroidStudioProjects/BrawijayaMessenger/app/src/main/AndroidManifest.xml:2:1-38:12
+	package
+		ADDED from /home/afifur/AndroidStudioProjects/BrawijayaMessenger/app/src/main/AndroidManifest.xml:3:5-53
+		INJECTED from /home/afifur/AndroidStudioProjects/BrawijayaMessenger/app/src/main/AndroidManifest.xml
+		INJECTED from /home/afifur/AndroidStudioProjects/BrawijayaMessenger/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/afifur/AndroidStudioProjects/BrawijayaMessenger/app/src/main/AndroidManifest.xml
+		INJECTED from /home/afifur/AndroidStudioProjects/BrawijayaMessenger/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/afifur/AndroidStudioProjects/BrawijayaMessenger/app/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from /home/afifur/AndroidStudioProjects/BrawijayaMessenger/app/src/main/AndroidManifest.xml
+		INJECTED from /home/afifur/AndroidStudioProjects/BrawijayaMessenger/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from /home/afifur/AndroidStudioProjects/BrawijayaMessenger/app/src/main/AndroidManifest.xml:6:5-71
+	android:name
+		ADDED from /home/afifur/AndroidStudioProjects/BrawijayaMessenger/app/src/main/AndroidManifest.xml:6:22-68
+uses-permission#android.permission.READ_PROFILE
+ADDED from /home/afifur/AndroidStudioProjects/BrawijayaMessenger/app/src/main/AndroidManifest.xml:7:5-71
+	android:name
+		ADDED from /home/afifur/AndroidStudioProjects/BrawijayaMessenger/app/src/main/AndroidManifest.xml:7:22-68
+uses-permission#android.permission.READ_CONTACTS
+ADDED from /home/afifur/AndroidStudioProjects/BrawijayaMessenger/app/src/main/AndroidManifest.xml:8:5-72
+	android:name
+		ADDED from /home/afifur/AndroidStudioProjects/BrawijayaMessenger/app/src/main/AndroidManifest.xml:8:22-69
+application
+ADDED from /home/afifur/AndroidStudioProjects/BrawijayaMessenger/app/src/main/AndroidManifest.xml:10:5-36:19
+MERGED from [com.google.firebase:firebase-auth:10.0.1] /home/afifur/.android/build-cache/85928bf3e6152270aaf259c679fbf730737aced4/output/AndroidManifest.xml:19:5-20:19
+MERGED from [com.google.android.gms:play-services-base:10.0.1] /home/afifur/.android/build-cache/74109011405002356dfb6a99b3eadd85893a070b/output/AndroidManifest.xml:18:5-20:19
+MERGED from [com.android.support:design:25.3.1] /home/afifur/.android/build-cache/19301d02a1d4739a048cc38939768b49d7dd00a9/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.1] /home/afifur/.android/build-cache/635695c71a055568279d13f7cd3f9dd15686e969/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/afifur/.android/build-cache/94384207c890fe90fca55d632ebed0e6f37f3aaa/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/afifur/.android/build-cache/b33c2b4ce4c49edf54aa32369c94677ad2bf54a4/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:transition:25.3.1] /home/afifur/.android/build-cache/c6b519b5f3482852ed8bc36ecdf62915c4e05b73/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.1] /home/afifur/.android/build-cache/f1e4d188fa0d6e227c4b17c3916c18eac79a6d0b/output/AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:2.0.0] /home/afifur/.android/build-cache/e48900b9a5ae3ec42ea04f9d6afba7e00b405557/output/AndroidManifest.xml:9:5-20
+MERGED from [com.google.firebase:firebase-messaging:10.0.1] /home/afifur/.android/build-cache/f913bd3186425a5c6252af1363cee40184beb078/output/AndroidManifest.xml:19:5-29:19
+MERGED from [com.alexzh:circleimageview:1.1.2] /home/afifur/.android/build-cache/8fb7961fed429375e34e20d244bb439a9ac68c8c/output/AndroidManifest.xml:11:5-14:19
+MERGED from [com.mikhaellopez:circularimageview:2.0.1] /home/afifur/.android/build-cache/92c191f2886189d6f3d102462b360a0ab38b0e8d/output/AndroidManifest.xml:11:5-13:38
+MERGED from [com.google.firebase:firebase-core:10.0.1] /home/afifur/.android/build-cache/16104faed531356b7c0ba5e2e944d8fec66316f9/output/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-analytics:10.0.1] /home/afifur/.android/build-cache/4c1b10066dc695c41a53ea7213e87644e7dc7e8c/output/AndroidManifest.xml:24:5-33:19
+MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] /home/afifur/.android/build-cache/90a9f63d709f99ddf179f63a11f598da59ce8e13/output/AndroidManifest.xml:24:5-28:19
+MERGED from [com.google.firebase:firebase-iid:10.0.1] /home/afifur/.android/build-cache/d2838bea5f9b8cdf78d3f72dc74b7b86ee9d5cf3/output/AndroidManifest.xml:28:5-50:19
+MERGED from [com.google.firebase:firebase-common:10.0.1] /home/afifur/.android/build-cache/4ec5351d63da68237f20b643b6edf5c1cb99caeb/output/AndroidManifest.xml:4:5-7:19
+MERGED from [com.google.android.gms:play-services-tasks:10.0.1] /home/afifur/.android/build-cache/4ac3eefd53f16e1a0e41871904e49d4599d78c8b/output/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] /home/afifur/.android/build-cache/8a482a3efc764abea707e6c91ce2b625e3243f42/output/AndroidManifest.xml:19:5-21:19
+MERGED from [com.android.support:support-v4:25.3.1] /home/afifur/.android/build-cache/dddbcd0ba8fe7cd47978b178789836bd5161bdea/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] /home/afifur/.android/build-cache/1759d92e3b555bc6159d05ada8885025fc0c850b/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] /home/afifur/.android/build-cache/39bf0f56a73ef9516ce9e17c56ed1764216db2d2/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] /home/afifur/.android/build-cache/88524956c422bdcb22b6a83f9633a0e3b15c283c/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] /home/afifur/.android/build-cache/7d291ed491b8fbae9b6006c02a5256794657f9fa/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] /home/afifur/.android/build-cache/6477067949a2d447f1e7f84413e0ad5964509fdd/output/AndroidManifest.xml:29:5-20
+	android:label
+		ADDED from /home/afifur/AndroidStudioProjects/BrawijayaMessenger/app/src/main/AndroidManifest.xml:13:9-41
+	android:supportsRtl
+		ADDED from /home/afifur/AndroidStudioProjects/BrawijayaMessenger/app/src/main/AndroidManifest.xml:15:9-35
+	android:roundIcon
+		ADDED from /home/afifur/AndroidStudioProjects/BrawijayaMessenger/app/src/main/AndroidManifest.xml:14:9-54
+	android:allowBackup
+		ADDED from /home/afifur/AndroidStudioProjects/BrawijayaMessenger/app/src/main/AndroidManifest.xml:11:9-35
+	android:icon
+		ADDED from /home/afifur/AndroidStudioProjects/BrawijayaMessenger/app/src/main/AndroidManifest.xml:12:9-43
+	android:theme
+		ADDED from /home/afifur/AndroidStudioProjects/BrawijayaMessenger/app/src/main/AndroidManifest.xml:16:9-40
+activity#com.yokoding.afifur.brawijayamessenger.ui.Activity.MainActivity
+ADDED from /home/afifur/AndroidStudioProjects/BrawijayaMessenger/app/src/main/AndroidManifest.xml:17:9-26:20
+	android:label
+		ADDED from /home/afifur/AndroidStudioProjects/BrawijayaMessenger/app/src/main/AndroidManifest.xml:19:13-45
+	android:theme
+		ADDED from /home/afifur/AndroidStudioProjects/BrawijayaMessenger/app/src/main/AndroidManifest.xml:20:13-56
+	android:name
+		ADDED from /home/afifur/AndroidStudioProjects/BrawijayaMessenger/app/src/main/AndroidManifest.xml:18:13-53
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /home/afifur/AndroidStudioProjects/BrawijayaMessenger/app/src/main/AndroidManifest.xml:21:13-25:29
+action#android.intent.action.MAIN
+ADDED from /home/afifur/AndroidStudioProjects/BrawijayaMessenger/app/src/main/AndroidManifest.xml:22:17-69
+	android:name
+		ADDED from /home/afifur/AndroidStudioProjects/BrawijayaMessenger/app/src/main/AndroidManifest.xml:22:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/afifur/AndroidStudioProjects/BrawijayaMessenger/app/src/main/AndroidManifest.xml:24:17-77
+	android:name
+		ADDED from /home/afifur/AndroidStudioProjects/BrawijayaMessenger/app/src/main/AndroidManifest.xml:24:27-74
+activity#com.yokoding.afifur.brawijayamessenger.BottomActivity
+ADDED from /home/afifur/AndroidStudioProjects/BrawijayaMessenger/app/src/main/AndroidManifest.xml:27:9-29:61
+	android:label
+		ADDED from /home/afifur/AndroidStudioProjects/BrawijayaMessenger/app/src/main/AndroidManifest.xml:29:13-58
+	android:name
+		ADDED from /home/afifur/AndroidStudioProjects/BrawijayaMessenger/app/src/main/AndroidManifest.xml:28:13-43
+activity#com.yokoding.afifur.brawijayamessenger.ui.Activity.RegisterActivity
+ADDED from /home/afifur/AndroidStudioProjects/BrawijayaMessenger/app/src/main/AndroidManifest.xml:30:9-66
+	android:name
+		ADDED from /home/afifur/AndroidStudioProjects/BrawijayaMessenger/app/src/main/AndroidManifest.xml:30:19-63
+activity#com.yokoding.afifur.brawijayamessenger.ui.Activity.LoginActivity
+ADDED from /home/afifur/AndroidStudioProjects/BrawijayaMessenger/app/src/main/AndroidManifest.xml:31:9-33:60
+	android:label
+		ADDED from /home/afifur/AndroidStudioProjects/BrawijayaMessenger/app/src/main/AndroidManifest.xml:33:13-57
+	android:name
+		ADDED from /home/afifur/AndroidStudioProjects/BrawijayaMessenger/app/src/main/AndroidManifest.xml:32:13-54
+activity#com.yokoding.afifur.brawijayamessenger.ui.Activity.ForgetpassActivity
+ADDED from /home/afifur/AndroidStudioProjects/BrawijayaMessenger/app/src/main/AndroidManifest.xml:34:9-68
+	android:name
+		ADDED from /home/afifur/AndroidStudioProjects/BrawijayaMessenger/app/src/main/AndroidManifest.xml:34:19-65
+activity#com.yokoding.afifur.brawijayamessenger.ui.Activity.ChatActivity
+ADDED from /home/afifur/AndroidStudioProjects/BrawijayaMessenger/app/src/main/AndroidManifest.xml:35:9-71
+	android:name
+		ADDED from /home/afifur/AndroidStudioProjects/BrawijayaMessenger/app/src/main/AndroidManifest.xml:35:19-59
+uses-sdk
+INJECTED from /home/afifur/AndroidStudioProjects/BrawijayaMessenger/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.google.firebase:firebase-auth:10.0.1] /home/afifur/.android/build-cache/85928bf3e6152270aaf259c679fbf730737aced4/output/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-base:10.0.1] /home/afifur/.android/build-cache/74109011405002356dfb6a99b3eadd85893a070b/output/AndroidManifest.xml:17:5-42
+MERGED from [com.android.support:design:25.3.1] /home/afifur/.android/build-cache/19301d02a1d4739a048cc38939768b49d7dd00a9/output/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:25.3.1] /home/afifur/.android/build-cache/635695c71a055568279d13f7cd3f9dd15686e969/output/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/afifur/.android/build-cache/94384207c890fe90fca55d632ebed0e6f37f3aaa/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/afifur/.android/build-cache/b33c2b4ce4c49edf54aa32369c94677ad2bf54a4/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:25.3.1] /home/afifur/.android/build-cache/314689c06af5b6540bec5f8752b4d52765d429e4/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:transition:25.3.1] /home/afifur/.android/build-cache/c6b519b5f3482852ed8bc36ecdf62915c4e05b73/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.0.1] /home/afifur/.android/build-cache/f1e4d188fa0d6e227c4b17c3916c18eac79a6d0b/output/AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:2.0.0] /home/afifur/.android/build-cache/e48900b9a5ae3ec42ea04f9d6afba7e00b405557/output/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-database:10.0.1] /home/afifur/.android/build-cache/0912b75242c5549d61e3408e2bc32b407cceda9a/output/AndroidManifest.xml:3:5-42
+MERGED from [com.google.firebase:firebase-database-connection:10.0.1] /home/afifur/.android/build-cache/aa8fd169817d5dfdbb161236d2efa198fb00ed24/output/AndroidManifest.xml:3:5-42
+MERGED from [com.google.firebase:firebase-messaging:10.0.1] /home/afifur/.android/build-cache/f913bd3186425a5c6252af1363cee40184beb078/output/AndroidManifest.xml:17:5-42
+MERGED from [com.alexzh:circleimageview:1.1.2] /home/afifur/.android/build-cache/8fb7961fed429375e34e20d244bb439a9ac68c8c/output/AndroidManifest.xml:7:5-9:41
+MERGED from [com.mikhaellopez:circularimageview:2.0.1] /home/afifur/.android/build-cache/92c191f2886189d6f3d102462b360a0ab38b0e8d/output/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-core:10.0.1] /home/afifur/.android/build-cache/16104faed531356b7c0ba5e2e944d8fec66316f9/output/AndroidManifest.xml:4:5-42
+MERGED from [com.google.firebase:firebase-analytics:10.0.1] /home/afifur/.android/build-cache/4c1b10066dc695c41a53ea7213e87644e7dc7e8c/output/AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] /home/afifur/.android/build-cache/90a9f63d709f99ddf179f63a11f598da59ce8e13/output/AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-iid:10.0.1] /home/afifur/.android/build-cache/d2838bea5f9b8cdf78d3f72dc74b7b86ee9d5cf3/output/AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-common:10.0.1] /home/afifur/.android/build-cache/4ec5351d63da68237f20b643b6edf5c1cb99caeb/output/AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-tasks:10.0.1] /home/afifur/.android/build-cache/4ac3eefd53f16e1a0e41871904e49d4599d78c8b/output/AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] /home/afifur/.android/build-cache/8a482a3efc764abea707e6c91ce2b625e3243f42/output/AndroidManifest.xml:17:5-42
+MERGED from [com.android.support:support-v4:25.3.1] /home/afifur/.android/build-cache/dddbcd0ba8fe7cd47978b178789836bd5161bdea/output/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.1] /home/afifur/.android/build-cache/1759d92e3b555bc6159d05ada8885025fc0c850b/output/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] /home/afifur/.android/build-cache/39bf0f56a73ef9516ce9e17c56ed1764216db2d2/output/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.3.1] /home/afifur/.android/build-cache/88524956c422bdcb22b6a83f9633a0e3b15c283c/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.3.1] /home/afifur/.android/build-cache/7d291ed491b8fbae9b6006c02a5256794657f9fa/output/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.3.1] /home/afifur/.android/build-cache/6477067949a2d447f1e7f84413e0ad5964509fdd/output/AndroidManifest.xml:21:5-23:58
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:25.3.1] /home/afifur/.android/build-cache/19301d02a1d4739a048cc38939768b49d7dd00a9/output/AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from /home/afifur/AndroidStudioProjects/BrawijayaMessenger/app/src/main/AndroidManifest.xml
+		INJECTED from /home/afifur/AndroidStudioProjects/BrawijayaMessenger/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/afifur/AndroidStudioProjects/BrawijayaMessenger/app/src/main/AndroidManifest.xml
+		INJECTED from /home/afifur/AndroidStudioProjects/BrawijayaMessenger/app/src/main/AndroidManifest.xml
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:10.0.1] /home/afifur/.android/build-cache/74109011405002356dfb6a99b3eadd85893a070b/output/AndroidManifest.xml:19:9-172
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:10.0.1] /home/afifur/.android/build-cache/74109011405002356dfb6a99b3eadd85893a070b/output/AndroidManifest.xml:19:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:10.0.1] /home/afifur/.android/build-cache/74109011405002356dfb6a99b3eadd85893a070b/output/AndroidManifest.xml:19:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:10.0.1] /home/afifur/.android/build-cache/74109011405002356dfb6a99b3eadd85893a070b/output/AndroidManifest.xml:19:19-85
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:25.3.1] /home/afifur/.android/build-cache/19301d02a1d4739a048cc38939768b49d7dd00a9/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:appcompat-v7:25.3.1] /home/afifur/.android/build-cache/635695c71a055568279d13f7cd3f9dd15686e969/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/afifur/.android/build-cache/94384207c890fe90fca55d632ebed0e6f37f3aaa/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/afifur/.android/build-cache/b33c2b4ce4c49edf54aa32369c94677ad2bf54a4/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:recyclerview-v7:25.3.1] /home/afifur/.android/build-cache/314689c06af5b6540bec5f8752b4d52765d429e4/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:transition:25.3.1] /home/afifur/.android/build-cache/c6b519b5f3482852ed8bc36ecdf62915c4e05b73/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-v4:25.3.1] /home/afifur/.android/build-cache/dddbcd0ba8fe7cd47978b178789836bd5161bdea/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] /home/afifur/.android/build-cache/1759d92e3b555bc6159d05ada8885025fc0c850b/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] /home/afifur/.android/build-cache/39bf0f56a73ef9516ce9e17c56ed1764216db2d2/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] /home/afifur/.android/build-cache/88524956c422bdcb22b6a83f9633a0e3b15c283c/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] /home/afifur/.android/build-cache/7d291ed491b8fbae9b6006c02a5256794657f9fa/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] /home/afifur/.android/build-cache/6477067949a2d447f1e7f84413e0ad5964509fdd/output/AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:design:25.3.1] /home/afifur/.android/build-cache/19301d02a1d4739a048cc38939768b49d7dd00a9/output/AndroidManifest.xml:27:9-31
+	android:name
+		ADDED from [com.android.support:design:25.3.1] /home/afifur/.android/build-cache/19301d02a1d4739a048cc38939768b49d7dd00a9/output/AndroidManifest.xml:26:9-47
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:10.0.1] /home/afifur/.android/build-cache/f913bd3186425a5c6252af1363cee40184beb078/output/AndroidManifest.xml:23:9-27:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:10.0.1] /home/afifur/.android/build-cache/f913bd3186425a5c6252af1363cee40184beb078/output/AndroidManifest.xml:23:88-111
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:10.0.1] /home/afifur/.android/build-cache/f913bd3186425a5c6252af1363cee40184beb078/output/AndroidManifest.xml:23:18-87
+intent-filter#com.google.firebase.MESSAGING_EVENT
+ADDED from [com.google.firebase:firebase-messaging:10.0.1] /home/afifur/.android/build-cache/f913bd3186425a5c6252af1363cee40184beb078/output/AndroidManifest.xml:24:13-26:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-messaging:10.0.1] /home/afifur/.android/build-cache/f913bd3186425a5c6252af1363cee40184beb078/output/AndroidManifest.xml:24:28-51
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from [com.google.firebase:firebase-messaging:10.0.1] /home/afifur/.android/build-cache/f913bd3186425a5c6252af1363cee40184beb078/output/AndroidManifest.xml:25:17-77
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:10.0.1] /home/afifur/.android/build-cache/f913bd3186425a5c6252af1363cee40184beb078/output/AndroidManifest.xml:25:25-75
+uses-permission#android.permission.INTERNET
+ADDED from [com.google.firebase:firebase-analytics:10.0.1] /home/afifur/.android/build-cache/4c1b10066dc695c41a53ea7213e87644e7dc7e8c/output/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] /home/afifur/.android/build-cache/90a9f63d709f99ddf179f63a11f598da59ce8e13/output/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-iid:10.0.1] /home/afifur/.android/build-cache/d2838bea5f9b8cdf78d3f72dc74b7b86ee9d5cf3/output/AndroidManifest.xml:20:5-66
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] /home/afifur/.android/build-cache/4c1b10066dc695c41a53ea7213e87644e7dc7e8c/output/AndroidManifest.xml:20:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.firebase:firebase-analytics:10.0.1] /home/afifur/.android/build-cache/4c1b10066dc695c41a53ea7213e87644e7dc7e8c/output/AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] /home/afifur/.android/build-cache/90a9f63d709f99ddf179f63a11f598da59ce8e13/output/AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-iid:10.0.1] /home/afifur/.android/build-cache/d2838bea5f9b8cdf78d3f72dc74b7b86ee9d5cf3/output/AndroidManifest.xml:19:5-78
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] /home/afifur/.android/build-cache/4c1b10066dc695c41a53ea7213e87644e7dc7e8c/output/AndroidManifest.xml:21:22-76
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.firebase:firebase-analytics:10.0.1] /home/afifur/.android/build-cache/4c1b10066dc695c41a53ea7213e87644e7dc7e8c/output/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] /home/afifur/.android/build-cache/90a9f63d709f99ddf179f63a11f598da59ce8e13/output/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-iid:10.0.1] /home/afifur/.android/build-cache/d2838bea5f9b8cdf78d3f72dc74b7b86ee9d5cf3/output/AndroidManifest.xml:21:5-67
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] /home/afifur/.android/build-cache/4c1b10066dc695c41a53ea7213e87644e7dc7e8c/output/AndroidManifest.xml:22:22-65
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:10.0.1] /home/afifur/.android/build-cache/4c1b10066dc695c41a53ea7213e87644e7dc7e8c/output/AndroidManifest.xml:25:7-26:18
+MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] /home/afifur/.android/build-cache/90a9f63d709f99ddf179f63a11f598da59ce8e13/output/AndroidManifest.xml:25:7-26:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] /home/afifur/.android/build-cache/4c1b10066dc695c41a53ea7213e87644e7dc7e8c/output/AndroidManifest.xml:25:90-112
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] /home/afifur/.android/build-cache/4c1b10066dc695c41a53ea7213e87644e7dc7e8c/output/AndroidManifest.xml:25:113-137
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] /home/afifur/.android/build-cache/4c1b10066dc695c41a53ea7213e87644e7dc7e8c/output/AndroidManifest.xml:25:17-89
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.firebase:firebase-analytics:10.0.1] /home/afifur/.android/build-cache/4c1b10066dc695c41a53ea7213e87644e7dc7e8c/output/AndroidManifest.xml:27:7-31:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] /home/afifur/.android/build-cache/4c1b10066dc695c41a53ea7213e87644e7dc7e8c/output/AndroidManifest.xml:27:162-184
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] /home/afifur/.android/build-cache/4c1b10066dc695c41a53ea7213e87644e7dc7e8c/output/AndroidManifest.xml:27:105-161
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] /home/afifur/.android/build-cache/4c1b10066dc695c41a53ea7213e87644e7dc7e8c/output/AndroidManifest.xml:27:17-104
+intent-filter#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:10.0.1] /home/afifur/.android/build-cache/4c1b10066dc695c41a53ea7213e87644e7dc7e8c/output/AndroidManifest.xml:28:11-30:27
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:10.0.1] /home/afifur/.android/build-cache/4c1b10066dc695c41a53ea7213e87644e7dc7e8c/output/AndroidManifest.xml:29:15-76
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] /home/afifur/.android/build-cache/4c1b10066dc695c41a53ea7213e87644e7dc7e8c/output/AndroidManifest.xml:29:23-74
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:10.0.1] /home/afifur/.android/build-cache/4c1b10066dc695c41a53ea7213e87644e7dc7e8c/output/AndroidManifest.xml:32:7-137
+MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] /home/afifur/.android/build-cache/90a9f63d709f99ddf179f63a11f598da59ce8e13/output/AndroidManifest.xml:27:7-137
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] /home/afifur/.android/build-cache/4c1b10066dc695c41a53ea7213e87644e7dc7e8c/output/AndroidManifest.xml:32:88-110
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] /home/afifur/.android/build-cache/4c1b10066dc695c41a53ea7213e87644e7dc7e8c/output/AndroidManifest.xml:32:111-135
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] /home/afifur/.android/build-cache/4c1b10066dc695c41a53ea7213e87644e7dc7e8c/output/AndroidManifest.xml:32:16-87
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:10.0.1] /home/afifur/.android/build-cache/d2838bea5f9b8cdf78d3f72dc74b7b86ee9d5cf3/output/AndroidManifest.xml:22:5-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] /home/afifur/.android/build-cache/d2838bea5f9b8cdf78d3f72dc74b7b86ee9d5cf3/output/AndroidManifest.xml:22:22-79
+permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:10.0.1] /home/afifur/.android/build-cache/d2838bea5f9b8cdf78d3f72dc74b7b86ee9d5cf3/output/AndroidManifest.xml:24:5-109
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] /home/afifur/.android/build-cache/d2838bea5f9b8cdf78d3f72dc74b7b86ee9d5cf3/output/AndroidManifest.xml:24:72-107
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] /home/afifur/.android/build-cache/d2838bea5f9b8cdf78d3f72dc74b7b86ee9d5cf3/output/AndroidManifest.xml:24:17-71
+uses-permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:10.0.1] /home/afifur/.android/build-cache/d2838bea5f9b8cdf78d3f72dc74b7b86ee9d5cf3/output/AndroidManifest.xml:26:5-78
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] /home/afifur/.android/build-cache/d2838bea5f9b8cdf78d3f72dc74b7b86ee9d5cf3/output/AndroidManifest.xml:26:22-76
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:10.0.1] /home/afifur/.android/build-cache/d2838bea5f9b8cdf78d3f72dc74b7b86ee9d5cf3/output/AndroidManifest.xml:30:9-36:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] /home/afifur/.android/build-cache/d2838bea5f9b8cdf78d3f72dc74b7b86ee9d5cf3/output/AndroidManifest.xml:30:85-108
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] /home/afifur/.android/build-cache/d2838bea5f9b8cdf78d3f72dc74b7b86ee9d5cf3/output/AndroidManifest.xml:30:109-169
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] /home/afifur/.android/build-cache/d2838bea5f9b8cdf78d3f72dc74b7b86ee9d5cf3/output/AndroidManifest.xml:30:19-84
+intent-filter#${applicationId}+com.google.android.c2dm.intent.RECEIVE+com.google.android.c2dm.intent.REGISTRATION
+ADDED from [com.google.firebase:firebase-iid:10.0.1] /home/afifur/.android/build-cache/d2838bea5f9b8cdf78d3f72dc74b7b86ee9d5cf3/output/AndroidManifest.xml:31:13-35:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:10.0.1] /home/afifur/.android/build-cache/d2838bea5f9b8cdf78d3f72dc74b7b86ee9d5cf3/output/AndroidManifest.xml:32:17-80
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] /home/afifur/.android/build-cache/d2838bea5f9b8cdf78d3f72dc74b7b86ee9d5cf3/output/AndroidManifest.xml:32:25-78
+action#com.google.android.c2dm.intent.REGISTRATION
+ADDED from [com.google.firebase:firebase-iid:10.0.1] /home/afifur/.android/build-cache/d2838bea5f9b8cdf78d3f72dc74b7b86ee9d5cf3/output/AndroidManifest.xml:33:17-85
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] /home/afifur/.android/build-cache/d2838bea5f9b8cdf78d3f72dc74b7b86ee9d5cf3/output/AndroidManifest.xml:33:25-83
+category#${applicationId}
+ADDED from [com.google.firebase:firebase-iid:10.0.1] /home/afifur/.android/build-cache/d2838bea5f9b8cdf78d3f72dc74b7b86ee9d5cf3/output/AndroidManifest.xml:34:17-60
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] /home/afifur/.android/build-cache/d2838bea5f9b8cdf78d3f72dc74b7b86ee9d5cf3/output/AndroidManifest.xml:34:27-58
+receiver#com.google.firebase.iid.FirebaseInstanceIdInternalReceiver
+ADDED from [com.google.firebase:firebase-iid:10.0.1] /home/afifur/.android/build-cache/d2838bea5f9b8cdf78d3f72dc74b7b86ee9d5cf3/output/AndroidManifest.xml:40:9-119
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] /home/afifur/.android/build-cache/d2838bea5f9b8cdf78d3f72dc74b7b86ee9d5cf3/output/AndroidManifest.xml:40:93-117
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] /home/afifur/.android/build-cache/d2838bea5f9b8cdf78d3f72dc74b7b86ee9d5cf3/output/AndroidManifest.xml:40:19-92
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:10.0.1] /home/afifur/.android/build-cache/d2838bea5f9b8cdf78d3f72dc74b7b86ee9d5cf3/output/AndroidManifest.xml:44:9-48:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] /home/afifur/.android/build-cache/d2838bea5f9b8cdf78d3f72dc74b7b86ee9d5cf3/output/AndroidManifest.xml:44:83-106
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] /home/afifur/.android/build-cache/d2838bea5f9b8cdf78d3f72dc74b7b86ee9d5cf3/output/AndroidManifest.xml:44:18-82
+intent-filter#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:10.0.1] /home/afifur/.android/build-cache/d2838bea5f9b8cdf78d3f72dc74b7b86ee9d5cf3/output/AndroidManifest.xml:45:13-47:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] /home/afifur/.android/build-cache/d2838bea5f9b8cdf78d3f72dc74b7b86ee9d5cf3/output/AndroidManifest.xml:45:28-51
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:10.0.1] /home/afifur/.android/build-cache/d2838bea5f9b8cdf78d3f72dc74b7b86ee9d5cf3/output/AndroidManifest.xml:46:17-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] /home/afifur/.android/build-cache/d2838bea5f9b8cdf78d3f72dc74b7b86ee9d5cf3/output/AndroidManifest.xml:46:25-77
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:10.0.1] /home/afifur/.android/build-cache/4ec5351d63da68237f20b643b6edf5c1cb99caeb/output/AndroidManifest.xml:6:9-194
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:10.0.1] /home/afifur/.android/build-cache/4ec5351d63da68237f20b643b6edf5c1cb99caeb/output/AndroidManifest.xml:6:19-78
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:10.0.1] /home/afifur/.android/build-cache/4ec5351d63da68237f20b643b6edf5c1cb99caeb/output/AndroidManifest.xml:6:144-168
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:10.0.1] /home/afifur/.android/build-cache/4ec5351d63da68237f20b643b6edf5c1cb99caeb/output/AndroidManifest.xml:6:169-192
+	android:name
+		ADDED from [com.google.firebase:firebase-common:10.0.1] /home/afifur/.android/build-cache/4ec5351d63da68237f20b643b6edf5c1cb99caeb/output/AndroidManifest.xml:6:79-143
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:10.0.1] /home/afifur/.android/build-cache/8a482a3efc764abea707e6c91ce2b625e3243f42/output/AndroidManifest.xml:20:9-121
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:10.0.1] /home/afifur/.android/build-cache/8a482a3efc764abea707e6c91ce2b625e3243f42/output/AndroidManifest.xml:20:66-119
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:10.0.1] /home/afifur/.android/build-cache/8a482a3efc764abea707e6c91ce2b625e3243f42/output/AndroidManifest.xml:20:20-65

@@ -1,0 +1,7 @@
+#Tue May 30 20:16:34 WIB 2017
+base.0=/home/afifur/AndroidStudioProjects/BrawijayaMessenger/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_1707673378c40661560fd752698996fe841d73a8
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=/home/afifur/AndroidStudioProjects/BrawijayaMessenger/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_63e8b9d0b27b81d5aeb1ea6f2c62ba457ccb0828/classes.dex
+base.1=/home/afifur/AndroidStudioProjects/BrawijayaMessenger/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_63e8b9d0b27b81d5aeb1ea6f2c62ba457ccb0828
+file.0=/home/afifur/AndroidStudioProjects/BrawijayaMessenger/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_1707673378c40661560fd752698996fe841d73a8/classes.dex

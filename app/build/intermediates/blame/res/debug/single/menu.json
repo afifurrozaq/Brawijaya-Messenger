@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/home/afifur/AndroidStudioProjects/BrawijayaMessenger/app/build/intermediates/res/merged/debug/menu/activity_main_drawer.xml",
+        "source": "/home/afifur/AndroidStudioProjects/BrawijayaMessenger/app/src/main/res/menu/activity_main_drawer.xml"
+    },
+    {
+        "merged": "/home/afifur/AndroidStudioProjects/BrawijayaMessenger/app/build/intermediates/res/merged/debug/menu/navigation.xml",
+        "source": "/home/afifur/AndroidStudioProjects/BrawijayaMessenger/app/src/main/res/menu/navigation.xml"
+    },
+    {
+        "merged": "/home/afifur/AndroidStudioProjects/BrawijayaMessenger/app/build/intermediates/res/merged/debug/menu/main.xml",
+        "source": "/home/afifur/AndroidStudioProjects/BrawijayaMessenger/app/src/main/res/menu/main.xml"
+    }
+]
