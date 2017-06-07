@@ -48,6 +48,10 @@
         "source": "/home/afifur/AndroidStudioProjects/BrawijayaMessenger/app/src/main/res/drawable/ic_home_black_24dp.xml"
     },
     {
+        "merged": "/home/afifur/AndroidStudioProjects/BrawijayaMessenger/app/build/intermediates/res/merged/debug/drawable/ic_delete_black_24dp.png",
+        "source": "/home/afifur/AndroidStudioProjects/BrawijayaMessenger/app/src/main/res/drawable/ic_delete_black_24dp.png"
+    },
+    {
         "merged": "/home/afifur/AndroidStudioProjects/BrawijayaMessenger/app/build/intermediates/res/merged/debug/drawable/abc_ic_arrow_drop_right_black_24dp.xml",
         "source": "/home/afifur/.android/build-cache/635695c71a055568279d13f7cd3f9dd15686e969/output/res/drawable/abc_ic_arrow_drop_right_black_24dp.xml"
     },
@@ -92,6 +96,10 @@
         "source": "/home/afifur/.android/build-cache/19301d02a1d4739a048cc38939768b49d7dd00a9/output/res/drawable/design_fab_background.xml"
     },
     {
+        "merged": "/home/afifur/AndroidStudioProjects/BrawijayaMessenger/app/build/intermediates/res/merged/debug/drawable/oval.xml",
+        "source": "/home/afifur/AndroidStudioProjects/BrawijayaMessenger/app/src/main/res/drawable/oval.xml"
+    },
+    {
         "merged": "/home/afifur/AndroidStudioProjects/BrawijayaMessenger/app/build/intermediates/res/merged/debug/drawable/notification_bg_low.xml",
         "source": "/home/afifur/.android/build-cache/635695c71a055568279d13f7cd3f9dd15686e969/output/res/drawable/notification_bg_low.xml"
     },
@@ -120,12 +128,20 @@
         "source": "/home/afifur/.android/build-cache/19301d02a1d4739a048cc38939768b49d7dd00a9/output/res/drawable/navigation_empty_icon.xml"
     },
     {
+        "merged": "/home/afifur/AndroidStudioProjects/BrawijayaMessenger/app/build/intermediates/res/merged/debug/drawable/type.xml",
+        "source": "/home/afifur/AndroidStudioProjects/BrawijayaMessenger/app/src/main/res/drawable/type.xml"
+    },
+    {
         "merged": "/home/afifur/AndroidStudioProjects/BrawijayaMessenger/app/build/intermediates/res/merged/debug/drawable/ic_menu_share.xml",
         "source": "/home/afifur/AndroidStudioProjects/BrawijayaMessenger/app/src/main/res/drawable/ic_menu_share.xml"
     },
     {
         "merged": "/home/afifur/AndroidStudioProjects/BrawijayaMessenger/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_light_focused.xml",
         "source": "/home/afifur/.android/build-cache/74109011405002356dfb6a99b3eadd85893a070b/output/res/drawable/common_google_signin_btn_icon_light_focused.xml"
+    },
+    {
+        "merged": "/home/afifur/AndroidStudioProjects/BrawijayaMessenger/app/build/intermediates/res/merged/debug/drawable/ic_action_settings.png",
+        "source": "/home/afifur/AndroidStudioProjects/BrawijayaMessenger/app/src/main/res/drawable/ic_action_settings.png"
     },
     {
         "merged": "/home/afifur/AndroidStudioProjects/BrawijayaMessenger/app/build/intermediates/res/merged/debug/drawable/abc_text_cursor_material.xml",
@@ -176,6 +192,10 @@
         "source": "/home/afifur/.android/build-cache/635695c71a055568279d13f7cd3f9dd15686e969/output/res/drawable/abc_cab_background_internal_bg.xml"
     },
     {
+        "merged": "/home/afifur/AndroidStudioProjects/BrawijayaMessenger/app/build/intermediates/res/merged/debug/drawable/ic_profile.xml",
+        "source": "/home/afifur/AndroidStudioProjects/BrawijayaMessenger/app/src/main/res/drawable/ic_profile.xml"
+    },
+    {
         "merged": "/home/afifur/AndroidStudioProjects/BrawijayaMessenger/app/build/intermediates/res/merged/debug/drawable/abc_ic_go_search_api_material.xml",
         "source": "/home/afifur/.android/build-cache/635695c71a055568279d13f7cd3f9dd15686e969/output/res/drawable/abc_ic_go_search_api_material.xml"
     },
@@ -184,12 +204,20 @@
         "source": "/home/afifur/AndroidStudioProjects/BrawijayaMessenger/app/src/main/res/drawable/chat_me.xml"
     },
     {
+        "merged": "/home/afifur/AndroidStudioProjects/BrawijayaMessenger/app/build/intermediates/res/merged/debug/drawable/ic_notification.png",
+        "source": "/home/afifur/AndroidStudioProjects/BrawijayaMessenger/app/src/main/res/drawable/ic_notification.png"
+    },
+    {
         "merged": "/home/afifur/AndroidStudioProjects/BrawijayaMessenger/app/build/intermediates/res/merged/debug/drawable/notification_tile_bg.xml",
         "source": "/home/afifur/.android/build-cache/635695c71a055568279d13f7cd3f9dd15686e969/output/res/drawable/notification_tile_bg.xml"
     },
     {
         "merged": "/home/afifur/AndroidStudioProjects/BrawijayaMessenger/app/build/intermediates/res/merged/debug/drawable/abc_textfield_search_material.xml",
         "source": "/home/afifur/.android/build-cache/635695c71a055568279d13f7cd3f9dd15686e969/output/res/drawable/abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "/home/afifur/AndroidStudioProjects/BrawijayaMessenger/app/build/intermediates/res/merged/debug/drawable/contact.xml",
+        "source": "/home/afifur/AndroidStudioProjects/BrawijayaMessenger/app/src/main/res/drawable/contact.xml"
     },
     {
         "merged": "/home/afifur/AndroidStudioProjects/BrawijayaMessenger/app/build/intermediates/res/merged/debug/drawable/abc_btn_default_mtrl_shape.xml",
@@ -256,6 +284,10 @@
         "source": "/home/afifur/AndroidStudioProjects/BrawijayaMessenger/app/src/main/res/drawable/bg_online.xml"
     },
     {
+        "merged": "/home/afifur/AndroidStudioProjects/BrawijayaMessenger/app/build/intermediates/res/merged/debug/drawable/ic_bell.xml",
+        "source": "/home/afifur/AndroidStudioProjects/BrawijayaMessenger/app/src/main/res/drawable/ic_bell.xml"
+    },
+    {
         "merged": "/home/afifur/AndroidStudioProjects/BrawijayaMessenger/app/build/intermediates/res/merged/debug/drawable/ic_menu_camera.xml",
         "source": "/home/afifur/AndroidStudioProjects/BrawijayaMessenger/app/src/main/res/drawable/ic_menu_camera.xml"
     },
@@ -276,8 +308,20 @@
         "source": "/home/afifur/.android/build-cache/74109011405002356dfb6a99b3eadd85893a070b/output/res/drawable/common_google_signin_btn_text_dark_focused.xml"
     },
     {
+        "merged": "/home/afifur/AndroidStudioProjects/BrawijayaMessenger/app/build/intermediates/res/merged/debug/drawable/chat.xml",
+        "source": "/home/afifur/AndroidStudioProjects/BrawijayaMessenger/app/src/main/res/drawable/chat.xml"
+    },
+    {
         "merged": "/home/afifur/AndroidStudioProjects/BrawijayaMessenger/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_light.xml",
         "source": "/home/afifur/.android/build-cache/635695c71a055568279d13f7cd3f9dd15686e969/output/res/drawable/abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "/home/afifur/AndroidStudioProjects/BrawijayaMessenger/app/build/intermediates/res/merged/debug/drawable/ic_mode_edit_black_24dp.png",
+        "source": "/home/afifur/AndroidStudioProjects/BrawijayaMessenger/app/src/main/res/drawable/ic_mode_edit_black_24dp.png"
+    },
+    {
+        "merged": "/home/afifur/AndroidStudioProjects/BrawijayaMessenger/app/build/intermediates/res/merged/debug/drawable/ic_add_white_24dp.png",
+        "source": "/home/afifur/AndroidStudioProjects/BrawijayaMessenger/app/src/main/res/drawable/ic_add_white_24dp.png"
     },
     {
         "merged": "/home/afifur/AndroidStudioProjects/BrawijayaMessenger/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_dark.xml",
@@ -286,6 +330,10 @@
     {
         "merged": "/home/afifur/AndroidStudioProjects/BrawijayaMessenger/app/build/intermediates/res/merged/debug/drawable/white.jpg",
         "source": "/home/afifur/AndroidStudioProjects/BrawijayaMessenger/app/src/main/res/drawable/white.jpg"
+    },
+    {
+        "merged": "/home/afifur/AndroidStudioProjects/BrawijayaMessenger/app/build/intermediates/res/merged/debug/drawable/ic_action_logout.png",
+        "source": "/home/afifur/AndroidStudioProjects/BrawijayaMessenger/app/src/main/res/drawable/ic_action_logout.png"
     },
     {
         "merged": "/home/afifur/AndroidStudioProjects/BrawijayaMessenger/app/build/intermediates/res/merged/debug/drawable/userpic.png",

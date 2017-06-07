@@ -21,6 +21,15 @@
     </item>
     <item
         is-multidex="true"
+        jar="/home/afifur/.android/build-cache/5d5093d686726919a7c8b8bf6987e60ed303504c/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="dd39827d2067497e60e21da48a7926000b6d4b0c">
+        <dex dex="/home/afifur/AndroidStudioProjects/BrawijayaMessenger/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_1bfe18bd86abad34b82eac9f8475971c7b5b6db2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/home/afifur/AndroidStudioProjects/BrawijayaMessenger/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
         jumboMode="true"
         optimize="true"
@@ -34,7 +43,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="cd330d6c8aa14a592ec46d568957a715473f133a">
+        sha1="bd00fcd192dc164a00b571ba2740fd4bd9edd40e">
         <dex dex="/home/afifur/AndroidStudioProjects/BrawijayaMessenger/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_63e8b9d0b27b81d5aeb1ea6f2c62ba457ccb0828/classes.dex" />
     </item>
     <item
@@ -93,6 +102,15 @@
     </item>
     <item
         is-multidex="true"
+        jar="/home/afifur/.android/build-cache/f6bf0effa99ea7fcbd4b3252dfab15e853c433de/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="30a4938ea5235ccf532b3e9f04200e68547e36ad">
+        <dex dex="/home/afifur/AndroidStudioProjects/BrawijayaMessenger/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_f9768129a3bdaad2344f30efca4feb91f96e78f4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/home/afifur/.android/build-cache/92c191f2886189d6f3d102462b360a0ab38b0e8d/output/jars/classes.jar"
         jumboMode="true"
         optimize="true"
@@ -126,6 +144,15 @@
         revision="25.0.2"
         sha1="bef8a6e9c48d173c5507cf734637b0726dc3afb1">
         <dex dex="/home/afifur/AndroidStudioProjects/BrawijayaMessenger/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_ba7a26cec6fc2e940ba11a892779dd61321b5b83/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/afifur/.android/build-cache/c37d6782f5dad769fd3523444cf3833fd674b45e/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="09cf6aa1390f95157e8295d02be7868f568825fc">
+        <dex dex="/home/afifur/AndroidStudioProjects/BrawijayaMessenger/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_68e19784f5e4a7a84fee232bc6a29fc8e08a9258/classes.dex" />
     </item>
     <item
         is-multidex="true"

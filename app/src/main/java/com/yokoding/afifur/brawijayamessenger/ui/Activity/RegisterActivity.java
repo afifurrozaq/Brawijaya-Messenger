@@ -110,6 +110,9 @@ public class RegisterActivity extends AppCompatActivity {
         return mUserFirstNameRegister.getText().toString().trim();
     }
 
+
+
+
     private String getUserEmail() {
         return mUserEmailRegister.getText().toString().trim();
     }
@@ -154,17 +157,18 @@ public class RegisterActivity extends AppCompatActivity {
     }
 
     private void createNewUser(String userId){
-        User user = buildNewUser();
+        User user = buildNewUser(userId);
         mDatabase.child("users").child(userId).setValue(user);
     }
 
-    private User buildNewUser() {
+    private User buildNewUser(String id) {
         return new User(
                 getUserDisplayName(),
                 getUserEmail(),
                 UsersChatAdapter.ONLINE,
                 ChatHelper.generateRandomAvatarForUser(),
-                new Date().getTime()
+                new Date().getTime(),
+                id,null,null,null,null,null
         );
     }
 

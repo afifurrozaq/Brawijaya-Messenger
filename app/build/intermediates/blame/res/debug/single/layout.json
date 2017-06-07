@@ -116,6 +116,10 @@
         "source": "/home/afifur/.android/build-cache/635695c71a055568279d13f7cd3f9dd15686e969/output/res/layout/abc_alert_dialog_material.xml"
     },
     {
+        "merged": "/home/afifur/AndroidStudioProjects/BrawijayaMessenger/app/build/intermediates/res/merged/debug/layout/activity_main2.xml",
+        "source": "/home/afifur/AndroidStudioProjects/BrawijayaMessenger/app/src/main/res/layout/activity_main2.xml"
+    },
+    {
         "merged": "/home/afifur/AndroidStudioProjects/BrawijayaMessenger/app/build/intermediates/res/merged/debug/layout/select_dialog_multichoice_material.xml",
         "source": "/home/afifur/.android/build-cache/635695c71a055568279d13f7cd3f9dd15686e969/output/res/layout/select_dialog_multichoice_material.xml"
     },
@@ -126,6 +130,10 @@
     {
         "merged": "/home/afifur/AndroidStudioProjects/BrawijayaMessenger/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view_list_item.xml",
         "source": "/home/afifur/.android/build-cache/635695c71a055568279d13f7cd3f9dd15686e969/output/res/layout/abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "/home/afifur/AndroidStudioProjects/BrawijayaMessenger/app/build/intermediates/res/merged/debug/layout/activity_profile_friend.xml",
+        "source": "/home/afifur/AndroidStudioProjects/BrawijayaMessenger/app/src/main/res/layout/activity_profile_friend.xml"
     },
     {
         "merged": "/home/afifur/AndroidStudioProjects/BrawijayaMessenger/app/build/intermediates/res/merged/debug/layout/design_navigation_menu.xml",
@@ -150,6 +158,10 @@
     {
         "merged": "/home/afifur/AndroidStudioProjects/BrawijayaMessenger/app/build/intermediates/res/merged/debug/layout/abc_action_bar_title_item.xml",
         "source": "/home/afifur/.android/build-cache/635695c71a055568279d13f7cd3f9dd15686e969/output/res/layout/abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "/home/afifur/AndroidStudioProjects/BrawijayaMessenger/app/build/intermediates/res/merged/debug/layout/activity_edit.xml",
+        "source": "/home/afifur/AndroidStudioProjects/BrawijayaMessenger/app/src/main/res/layout/activity_edit.xml"
     },
     {
         "merged": "/home/afifur/AndroidStudioProjects/BrawijayaMessenger/app/build/intermediates/res/merged/debug/layout/abc_popup_menu_header_item_layout.xml",
@@ -200,6 +212,14 @@
         "source": "/home/afifur/.android/build-cache/635695c71a055568279d13f7cd3f9dd15686e969/output/res/layout/abc_popup_menu_item_layout.xml"
     },
     {
+        "merged": "/home/afifur/AndroidStudioProjects/BrawijayaMessenger/app/build/intermediates/res/merged/debug/layout/custom_dailog.xml",
+        "source": "/home/afifur/AndroidStudioProjects/BrawijayaMessenger/app/src/main/res/layout/custom_dailog.xml"
+    },
+    {
+        "merged": "/home/afifur/AndroidStudioProjects/BrawijayaMessenger/app/build/intermediates/res/merged/debug/layout/custom_cardlayout.xml",
+        "source": "/home/afifur/AndroidStudioProjects/BrawijayaMessenger/app/src/main/res/layout/custom_cardlayout.xml"
+    },
+    {
         "merged": "/home/afifur/AndroidStudioProjects/BrawijayaMessenger/app/build/intermediates/res/merged/debug/layout/abc_action_bar_view_list_nav_layout.xml",
         "source": "/home/afifur/.android/build-cache/635695c71a055568279d13f7cd3f9dd15686e969/output/res/layout/abc_action_bar_view_list_nav_layout.xml"
     },
@@ -224,6 +244,10 @@
         "source": "/home/afifur/.android/build-cache/635695c71a055568279d13f7cd3f9dd15686e969/output/res/layout/select_dialog_singlechoice_material.xml"
     },
     {
+        "merged": "/home/afifur/AndroidStudioProjects/BrawijayaMessenger/app/build/intermediates/res/merged/debug/layout/user_contact.xml",
+        "source": "/home/afifur/AndroidStudioProjects/BrawijayaMessenger/app/src/main/res/layout/user_contact.xml"
+    },
+    {
         "merged": "/home/afifur/AndroidStudioProjects/BrawijayaMessenger/app/build/intermediates/res/merged/debug/layout/abc_screen_simple_overlay_action_mode.xml",
         "source": "/home/afifur/.android/build-cache/635695c71a055568279d13f7cd3f9dd15686e969/output/res/layout/abc_screen_simple_overlay_action_mode.xml"
     },
@@ -242,6 +266,10 @@
     {
         "merged": "/home/afifur/AndroidStudioProjects/BrawijayaMessenger/app/build/intermediates/res/merged/debug/layout/activity_forgotpass.xml",
         "source": "/home/afifur/AndroidStudioProjects/BrawijayaMessenger/app/src/main/res/layout/activity_forgotpass.xml"
+    },
+    {
+        "merged": "/home/afifur/AndroidStudioProjects/BrawijayaMessenger/app/build/intermediates/res/merged/debug/layout/toolbar.xml",
+        "source": "/home/afifur/AndroidStudioProjects/BrawijayaMessenger/app/src/main/res/layout/toolbar.xml"
     },
     {
         "merged": "/home/afifur/AndroidStudioProjects/BrawijayaMessenger/app/build/intermediates/res/merged/debug/layout/abc_expanded_menu_layout.xml",

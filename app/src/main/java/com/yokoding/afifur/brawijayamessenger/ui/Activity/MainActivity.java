@@ -13,17 +13,37 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.ImageView;
+import android.widget.TextView;
 
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
+import com.squareup.picasso.Picasso;
 import com.yokoding.afifur.brawijayamessenger.BottomNavigationViewHelper;
 import com.yokoding.afifur.brawijayamessenger.R;
+import com.yokoding.afifur.brawijayamessenger.adapter.UsersChatAdapter;
+import com.yokoding.afifur.brawijayamessenger.model.User;
 import com.yokoding.afifur.brawijayamessenger.ui.fragment.ChatFragment;
 import com.yokoding.afifur.brawijayamessenger.ui.fragment.ContactFragment;
+import com.yokoding.afifur.brawijayamessenger.ui.fragment.NamaFragment;
 import com.yokoding.afifur.brawijayamessenger.ui.fragment.ProfileFragment;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
     private BottomNavigationView bottomNavigation;
+    private FirebaseAuth mAuth;
+    private DatabaseReference mUserRefDatabase;
+    private FirebaseUser user;
+    private TextView email;
+    private ImageView img;
+    private TextView nama;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -38,8 +58,14 @@ public class MainActivity extends AppCompatActivity
         drawer.setDrawerListener(toggle);
         toggle.syncState();
 
+
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
+        View header=navigationView.getHeaderView(0);
+        email = (TextView) header.findViewById(R.id.email_nav);
+        nama = (TextView) header.findViewById(R.id.name_nav);
+        img = (ImageView) header.findViewById(R.id.imageView_nav);
+
         bottomNavigation = (BottomNavigationView) findViewById(R.id.navigation);
 
         this.setUiFragment();
@@ -47,7 +73,41 @@ public class MainActivity extends AppCompatActivity
         navigation.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);
         navigationView.setNavigationItemSelectedListener(this);
         BottomNavigationViewHelper.disableShiftMode(navigation);
+        setAuthInstance() ;
+        setUsersDatabase();
+        selectprofile();
+    }
+    private void setAuthInstance() {
+        mAuth = FirebaseAuth.getInstance();
+    }
 
+    public void selectprofile() {
+
+        mUserRefDatabase = FirebaseDatabase.getInstance().getReference();
+        mUserRefDatabase.child("users").addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(DataSnapshot dataSnapshot) {
+                for (DataSnapshot noteDataSnapshot : dataSnapshot.getChildren()) {
+                    User note = noteDataSnapshot.getValue(User.class);
+                    user =  FirebaseAuth.getInstance().getCurrentUser();
+                    if(note.getId().equals(user.getUid())) {
+                        email.setText(note.getEmail());
+                        Picasso.with(MainActivity.this)
+                                .load(note.getImage())
+                                .into(img);
+                    }
+                }
+            }
+            @Override
+            public void onCancelled(DatabaseError databaseError) {
+
+            }
+
+        });
+    }
+
+    private void setUsersDatabase() {
+        mUserRefDatabase = FirebaseDatabase.getInstance().getReference().child("users");
     }
 
     private BottomNavigationView.OnNavigationItemSelectedListener mOnNavigationItemSelectedListener
@@ -65,6 +125,9 @@ public class MainActivity extends AppCompatActivity
                     break;
                 case R.id.navigation_notifications:
                     fragment = new ProfileFragment();
+                    break;
+                case R.id.navigation_reminder:
+                    fragment = new NamaFragment();
                     break;
 
             }
@@ -132,6 +195,16 @@ public class MainActivity extends AppCompatActivity
 
         return super.onOptionsItemSelected(item);
     }
+    private void logout() {
+        mAuth.signOut();
+    }
+
+    private void setUserOffline() {
+        if(mAuth.getCurrentUser()!=null ) {
+            String userId = mAuth.getCurrentUser().getUid();
+            mUserRefDatabase.child(userId).child("connection").setValue(UsersChatAdapter.OFFLINE);
+        }
+    }
 
     @SuppressWarnings("StatementWithEmptyBody")
     @Override
@@ -139,17 +212,13 @@ public class MainActivity extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        if (id == R.id.nav_camera) {
-            // Handle the camera action
-        } else if (id == R.id.nav_gallery) {
-
-        } else if (id == R.id.nav_slideshow) {
-
+        if (id == R.id.nav_gallery) {
+            logout();
         } else if (id == R.id.nav_manage) {
-
-        } else if (id == R.id.nav_share) {
-
-        } else if (id == R.id.nav_send) {
+            Intent b = new Intent(getApplicationContext(), EditActivity.class);
+            startActivity(b);
+        } else if (id == R.id.nav_logout) {
+        } else if (id == R.id.nav_settings) {
 
         }
 

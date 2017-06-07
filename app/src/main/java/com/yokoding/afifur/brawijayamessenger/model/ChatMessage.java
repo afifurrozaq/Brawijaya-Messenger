@@ -4,11 +4,13 @@ import android.text.format.DateFormat;
 
 import com.google.firebase.database.Exclude;
 
+import java.io.Serializable;
+
 /**
  * Created by afifur on 25/05/17.
  */
 
-public class ChatMessage {
+public class ChatMessage implements Serializable{
 
     private String message;
     private String sender;
@@ -16,17 +18,21 @@ public class ChatMessage {
     private long timestamp;
     private String formattedTime;
 
+
+    private String status_message;
+
     private int mRecipientOrSenderStatus;
 
     public ChatMessage() {
     }
 
-    public ChatMessage(String message, String sender, String recipient,long timestamp,String formattedTime) {
+    public ChatMessage(String message, String sender, String recipient,long timestamp,String formattedTime, String status_message) {
         this.message = message;
         this.recipient = recipient;
         this.sender = sender;
         this.formattedTime = formattedTime;
         this.timestamp = timestamp;
+        this.status_message = status_message;
     }
 
 
@@ -36,6 +42,12 @@ public class ChatMessage {
     public long getTimestamp() {
         return timestamp;
     }
+
+    public String getStatus_message() {
+        return status_message;
+    }
+
+    public void setStatus_message(String status_message){this.status_message = status_message;}
 
     public void setTimestamp(long timestamp) {
         this.timestamp = timestamp;
@@ -52,6 +64,10 @@ public class ChatMessage {
         }else{
             formattedTime = DateFormat.format("dd MMM - hh:mm a", time).toString();
         }
+    }
+
+    public void setMessage(String message) {
+        this.message = message;
     }
 
     public void setFormattedTime(String formattedTime) {

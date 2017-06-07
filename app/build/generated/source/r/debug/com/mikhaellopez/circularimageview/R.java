@@ -8,19 +8,19 @@ package com.mikhaellopez.circularimageview;
 
 public final class R {
     public static final class attr {
-        public static final int border = 0x7f0100df;
-        public static final int border_color = 0x7f0100e1;
-        public static final int border_width = 0x7f0100e0;
-        public static final int circularImageViewStyle = 0x7f010167;
-        public static final int shadow = 0x7f0100e2;
+        public static final int border = 0x7f0100ea;
+        public static final int border_color = 0x7f0100ec;
+        public static final int border_width = 0x7f0100eb;
+        public static final int circularImageViewStyle = 0x7f010172;
+        public static final int shadow = 0x7f0100ed;
     }
     public static final class styleable {
-        public static final int[] CircularImageView = { 0x7f0100df, 0x7f0100e0, 0x7f0100e1, 0x7f0100e2 };
+        public static final int[] CircularImageView = { 0x7f0100ea, 0x7f0100eb, 0x7f0100ec, 0x7f0100ed };
         public static final int CircularImageView_border = 0;
         public static final int CircularImageView_border_color = 2;
         public static final int CircularImageView_border_width = 1;
         public static final int CircularImageView_shadow = 3;
-        public static final int[] Theme = { 0x7f010167 };
+        public static final int[] Theme = { 0x7f010172 };
         public static final int Theme_circularImageViewStyle = 0;
     }
 }

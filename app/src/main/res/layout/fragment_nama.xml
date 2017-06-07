@@ -1,13 +1,48 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingBottom="60dp"
     tools:context="com.yokoding.afifur.brawijayamessenger.ui.fragment.NamaFragment">
-
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <android.support.design.widget.CoordinatorLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/main_content"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="match_parent">
+        <android.support.v4.widget.SwipeRefreshLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/swiperefresh">
 
-</FrameLayout>
+
+            <android.support.v7.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/recycler_view_s"
+                app:layout_behavior="com.yokoding.afifur.brawijayamessenger.util.ScrollAwareFABBehavior">
+            </android.support.v7.widget.RecyclerView>
+        </android.support.v4.widget.SwipeRefreshLayout>
+
+        <android.support.design.widget.FloatingActionButton
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:id="@+id/imageButton"
+            app:pressedTranslationZ="12dp"
+            android:background="@color/colorPrimaryDark"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="false"
+            android:elevation="10dp"
+            android:layout_gravity="end|bottom"
+            android:layout_alignParentRight="false"
+            android:layout_alignParentStart="false"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/ic_add_white_24dp"
+            android:layout_marginBottom="25dp"
+            android:layout_marginRight="25dp"
+            app:layout_behavior="com.yokoding.afifur.brawijayamessenger.util.ScrollAwareFABBehavior"/>
+    </android.support.design.widget.CoordinatorLayout>
+
+</RelativeLayout>

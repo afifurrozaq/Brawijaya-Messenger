@@ -4,6 +4,10 @@
         "source": "/home/afifur/AndroidStudioProjects/BrawijayaMessenger/app/src/main/res/menu/activity_main_drawer.xml"
     },
     {
+        "merged": "/home/afifur/AndroidStudioProjects/BrawijayaMessenger/app/build/intermediates/res/merged/debug/menu/menu_drawer_bottom.xml",
+        "source": "/home/afifur/AndroidStudioProjects/BrawijayaMessenger/app/src/main/res/menu/menu_drawer_bottom.xml"
+    },
+    {
         "merged": "/home/afifur/AndroidStudioProjects/BrawijayaMessenger/app/build/intermediates/res/merged/debug/menu/navigation.xml",
         "source": "/home/afifur/AndroidStudioProjects/BrawijayaMessenger/app/src/main/res/menu/navigation.xml"
     },

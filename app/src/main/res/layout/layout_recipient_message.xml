@@ -17,6 +17,13 @@
             android:layout_height="40dp"
             android:src="@drawable/userpic"
             android:layout_marginRight="10dp"/>
+        <ImageView
+            android:layout_toLeftOf="@+id/time_r"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/userpic"
+            android:id="@+id/image_chat"
+            />
         <TextView
             android:id="@+id/text_view_recipient_message"
             android:layout_toLeftOf="@+id/time_r"
@@ -25,7 +32,7 @@
             android:layout_height="wrap_content"
             android:padding="10dp"
             android:text="Hi, joe how are you, do you like to join our party in next week because you don't like party?"
-            android:textColor="@color/text_color_icon"
+            android:textColor="@color/bg_user_message"
             android:textSize="14sp"
             android:background="@drawable/chat_you"/>
         <TextView
@@ -38,5 +45,6 @@
             android:textColor="@color/text_color_icon"
             android:textSize="12sp"
             android:layout_centerVertical="true"/>
+
     </LinearLayout>
 </RelativeLayout>

@@ -3,6 +3,7 @@ package com.yokoding.afifur.brawijayamessenger.Helper;
 import android.app.AlertDialog;
 import android.content.Context;
 
+import com.squareup.picasso.Picasso;
 import com.yokoding.afifur.brawijayamessenger.R;
 
 import java.util.Random;
@@ -37,6 +38,7 @@ public class ChatHelper {
                 return R.mipmap.ic_launcher_round;
         }
     }
+
 
     public static AlertDialog buildAlertDialog(String title, String message, boolean isCancelable, Context context){
 

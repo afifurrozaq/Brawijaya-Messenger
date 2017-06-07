@@ -11,20 +11,42 @@ public class User {
     private String displayName;
     private String email;
     private String connection;
+    private String id;
     private int avatarId;
     private long createdAt;
+    private String nomor;
+    private String job;
+    private String lokasi;
+    private String address;
+    private String image;
 
     private String mRecipientId;
 
     public User() {
     }
 
-    public User(String displayName, String email, String connection, int avatarId, long createdAt) {
+//    public User(String displayName, String email, String connection, int avatarId, long createdAt, String id) {
+//        this.displayName = displayName;
+//        this.email = email;
+//        this.id = id;
+//        this.connection = connection;
+//        this.avatarId = avatarId;
+//        this.createdAt = createdAt;
+//
+//    }
+
+    public User(String displayName, String email,String connection,int avatarId,long createdAt,  String id,String nomor,String job,String lokasi,String address, String image) {
         this.displayName = displayName;
         this.email = email;
-        this.connection = connection;
+        this.id = id;
+        this.address=address;
+        this.nomor=nomor;
         this.avatarId = avatarId;
+        this.connection = connection;
+        this.job=job;
+        this.lokasi = lokasi;
         this.createdAt = createdAt;
+        this.image = image;
     }
 
 
@@ -53,6 +75,18 @@ public class User {
         return email;
     }
 
+    public String getLokasi() {
+        return lokasi;
+    }
+
+    public String getJob() {
+        return job;
+    }
+
+    public String getAddress() {
+        return address;
+    }
+
     public String getDisplayName() {
         return displayName;
     }
@@ -61,8 +95,16 @@ public class User {
         return email;
     }
 
+    public String getImage() {
+        return image;
+    }
+
     public String getConnection() {
         return connection;
+    }
+
+    public String getId() {
+        return id;
     }
 
     public int getAvatarId() {

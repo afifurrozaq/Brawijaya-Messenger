@@ -10,6 +10,10 @@
         <item name="android:colorAccent">@color/colorAccent</item>
 
     </style>
+    <style name="Button.Edit" parent="Widget.AppCompat.Button.Colored">
+        <item name="colorButtonNormal">@color/btn_edit</item>
+        <item name="android:textColor">@color/text_color</item>
+    </style>
     <style name="h2">
         <item name="android:textSize">16sp</item>
         <item name="android:textColor">@color/text_color_icon</item>

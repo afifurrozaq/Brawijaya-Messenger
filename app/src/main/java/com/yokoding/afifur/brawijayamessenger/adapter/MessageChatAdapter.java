@@ -1,11 +1,14 @@
 package com.yokoding.afifur.brawijayamessenger.adapter;
 
+import android.content.Context;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.squareup.picasso.Picasso;
 import com.yokoding.afifur.brawijayamessenger.R;
 import com.yokoding.afifur.brawijayamessenger.model.ChatMessage;
 
@@ -20,6 +23,7 @@ public class MessageChatAdapter extends RecyclerView.Adapter<RecyclerView.ViewHo
     private List<ChatMessage> mChatList;
     public static final int SENDER = 0;
     public static final int RECIPIENT = 1;
+    public Context context;
 
     public MessageChatAdapter(List<ChatMessage> listOfFireChats) {
         mChatList = listOfFireChats;
@@ -36,7 +40,7 @@ public class MessageChatAdapter extends RecyclerView.Adapter<RecyclerView.ViewHo
 
     @Override
     public RecyclerView.ViewHolder onCreateViewHolder(ViewGroup viewGroup, int viewType) {
-        RecyclerView.ViewHolder viewHolder, viewHolderTime;
+        RecyclerView.ViewHolder viewHolder;
         LayoutInflater inflater = LayoutInflater.from(viewGroup.getContext());
 
         switch (viewType) {
@@ -75,13 +79,34 @@ public class MessageChatAdapter extends RecyclerView.Adapter<RecyclerView.ViewHo
 
     private void configureSenderView(ViewHolderSender viewHolderSender, int position) {
         ChatMessage senderFireMessage = mChatList.get(position);
+        if (senderFireMessage.getStatus_message().equals("text")){
+            viewHolderSender.getmSenderMessageImage().setVisibility(View.GONE);
+        }else {
+            viewHolderSender.getSenderMessageTextView().setVisibility(View.GONE);
+            viewHolderSender.getmSenderMessageImage().setVisibility(View.VISIBLE);
+            Picasso.with(context)
+                    .load(senderFireMessage.getMessage())
+                    .into(viewHolderSender.getmSenderMessageImage());
+        }
+
+        System.out.println(senderFireMessage.getStatus_message()+" "+senderFireMessage.getMessage());
         viewHolderSender.getSenderMessageTextView().setText(senderFireMessage.getMessage());
+
         viewHolderSender.getSenderMessageTime().setText(senderFireMessage.getFormattedTime());
     }
 
 
     private void configureRecipientView(ViewHolderRecipient viewHolderRecipient, int position) {
         ChatMessage recipientFireMessage = mChatList.get(position);
+        if (recipientFireMessage.getStatus_message().equals("text")){
+            viewHolderRecipient.getmRecipientMessageImage().setVisibility(View.GONE);
+        }else {
+            viewHolderRecipient.getRecipientMessageTextView().setVisibility(View.GONE);
+            viewHolderRecipient.getmRecipientMessageImage().setVisibility(View.VISIBLE);
+            Picasso.with(context)
+                    .load(recipientFireMessage.getMessage())
+                    .into(viewHolderRecipient.getmRecipientMessageImage());
+        }
         viewHolderRecipient.getRecipientMessageTextView().setText(recipientFireMessage.getMessage());
         viewHolderRecipient.getRecipientMessageTime().setText(recipientFireMessage.getFormattedTime());
     }
@@ -115,11 +140,13 @@ public class MessageChatAdapter extends RecyclerView.Adapter<RecyclerView.ViewHo
 
         private TextView mSenderMessageTextView;
         private TextView mSenderMessageTime;
+        private ImageView mSenderMessageImage;
 
         public ViewHolderSender(View itemView) {
             super(itemView);
             mSenderMessageTextView = (TextView) itemView.findViewById(R.id.text_view_sender_message);
             mSenderMessageTime = (TextView) itemView.findViewById(R.id.time);
+            mSenderMessageImage = (ImageView) itemView.findViewById(R.id.image_chat);
         }
 
         public TextView getSenderMessageTextView() {
@@ -129,19 +156,24 @@ public class MessageChatAdapter extends RecyclerView.Adapter<RecyclerView.ViewHo
         public TextView getSenderMessageTime() {
             return mSenderMessageTime;
         }
+
+        public ImageView getmSenderMessageImage(){return mSenderMessageImage;}
     }
 
 
     /*ViewHolder for Recipient*/
     public class ViewHolderRecipient extends RecyclerView.ViewHolder {
 
+        private ImageView mRecipientMessageImage;
         private TextView mRecipientMessageTextView;
         private TextView mRecipientMessageTime;
+
 
         public ViewHolderRecipient(View itemView) {
             super(itemView);
             mRecipientMessageTextView = (TextView) itemView.findViewById(R.id.text_view_recipient_message);
             mRecipientMessageTime = (TextView) itemView.findViewById(R.id.time_r);
+            mRecipientMessageImage = (ImageView) itemView.findViewById(R.id.image_chat);
 
         }
 
@@ -151,6 +183,9 @@ public class MessageChatAdapter extends RecyclerView.Adapter<RecyclerView.ViewHo
 
         public TextView getRecipientMessageTime() {
             return mRecipientMessageTime;
+        }
+        public ImageView getmRecipientMessageImage() {
+            return mRecipientMessageImage;
         }
 
     }
